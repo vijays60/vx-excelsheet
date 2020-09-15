@@ -1,0 +1,35 @@
+#excel-sheet table th, td{
+    border: 1px solid black;
+    min-width: 50px;
+}
+#excel-sheet table th,
+#excel-sheet table td.rowNo {
+    background-color: #878686;
+    text-align: center;
+}
+#excel-sheet table td input {
+    border-width: 0;
+    min-width: 50px;
+}
+
+.excelsheet_menu {
+    width: 120px;
+    box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: none;
+    background-color:#FFF;
+}
+.excelsheet_menu .excelsheet_menu-options {
+    list-style: none;
+    padding:0;
+}
+.excelsheet_menu .excelsheet_menu-options .excelsheet_menu-option {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 1px solid #000; 
+}
+.excelsheet_menu .excelsheet_menu-options .excelsheet_menu-option:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
